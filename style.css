@@ -28,7 +28,7 @@ li {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px black;
   border-radius: 10px;
 }
 
@@ -131,8 +131,7 @@ nav ul {
   font-family: "Finger Paint", sans-serif;
 }
 
-.navItem :hover,
-.nav-li :focus {
+.navItem :hover {
   color: rgb(105, 167, 247);
 }
 
@@ -200,7 +199,6 @@ nav ul {
   align-items: center;
 }
 
-.header-about-me,
 .developerText {
   font-size: 2.5rem;
   color: rgb(205, 241, 207);
@@ -349,7 +347,7 @@ nav ul {
 .skillsList {
   margin-top: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 5rem;
 }
@@ -670,7 +668,7 @@ nav ul {
 
   .skillsList {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 2rem;
     padding: 2rem;
     margin-left: 3rem;
