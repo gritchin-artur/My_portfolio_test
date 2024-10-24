@@ -1,127 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <link rel="icon" href="/img/Artur_img.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Sarina&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hrytchyn Artur</title>
   </head>
   <body>
-    <!-- Hat site -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+    <!---- Navigation to update ---->
+    <p class="navContainer">
+      <div class="MyLogo" href="./index.html">HA</div>
+    </p>
+    <nav class="nav">
+      <ul>
+        <li class="navItem">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="navItem">
+          <a href="#about">About</a>
+        </li>
+        <li class="navItem">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="navItem">
+          <a href="#work">Work</a>
+        </li>
+        <li class="navItem">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!---- Header ---->
+    <header class="headerContainer">
+      <div class="greeting">
+        <p class="hiText greetingText">Hi, I'm Artur</p>
+        <p class="developerText greetingText">I am a Frontend-Developer.</p>
+        <p class="welcomeText greetingText">
+          Welcome to my little programming world.
+        </p>
+      </div>
     </header>
-
-    <main>
-      <!-- Introduction -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
-
-      <!-- About studio -->
-      <section>
-        <h2>About studio</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
+    <!---- Section about me ---->
+    <section class="sectionAbout">
+      <div class="aboutIntroduction" id="about">
+        <p class="aboutProfession">Frontend - Developer</p>
+        <h2 class="aboutTitle">Artur</h2>
+        <div class="aboutImg"></div>
+        <p class="aboutInfo">
+          Hello! I would like to introduce you to my portfolio, which you will
+          find on my website. I am happy to share my projects and experiences.
+          If you have any questions, suggestions or collaborations, please
+          contact me.
+        </p>
+        <ul class="aboutSocialMedia">
+          <li class="aboutContact">
+            <a
+              href="https://github.com/gritchin-artur"
+            >
+              <img src="./img/git-logo.png" alt="github" />
+            </a>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
+          <li class="aboutContact">
+            <a href="https://Artur.slack.com/">
+              <img class="img-slack" src="./img/pngwing.com.png" alt="slack" />
+            </a>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
+          <li class="aboutContact">
+            <a
+              href="https://discord.com/users/artur0237"
+            >
+              <img src="./img/icons8-discord-48.png" alt="discord" />
+            </a>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
+          <li class="aboutContact">
+            <a href="mailto:grit4in0225@icloud.com">
+              <img src="./img/mail_img.png" alt="mail" />
+            </a>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
+    <section class="sectionSkills" id="skills">
+      <div class="skillsContainer">
+        <h2 class="skillsTitle">Skills</h2>
+        <hr class="mySkills" />
+        <div class="skillsWrapper">
+          <ul class="skillsList">
+            <li class="skills">
+              <img src="./img/html5-logo.png" alt="html" />
+            </li>
+            <li class="skills">
+              <img src="./img/css-logo.png" alt="css" />
+            </li>
+            <li class="skills">
+              <img src="./img/sass-logo.png" alt="sass" />
+            </li>
+            <li class="skills">
+              <img src="./img/javascript-logo.png" alt="javascript" />
+            </li>
+            <li class="skills">
+              <img src="./img/typescript-logo.png" alt="typescript" />
+            </li>
+            <li class="skills">
+              <img src="./img/git-logo.png" alt="git" />
+            </li>
+            <li class="skills">
+              <img src="./img/github-logo.png" alt="github" />
+            </li>
+            <li class="skills">
+              <img src="./img/react-logo.png" alt="react" />
+            </li>
+          </ul>
+          <p class="skillsDescription">
+            I am a beginner Full Stack Developer who loves to face new
+            challenges and the ability to solve them. I approach my work
+            responsibly and deliver it with high quality. I am always ready to
+            learn and do something new. I am a hard worker, persistent and
+            responsible. I can work both independently and in a team. I like to
+            conquer new heights.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="workSection" id="work">
+      <div class="workContainer">
+        <h2 class="workTitle">Projects</h2>
+        <hr class="workUnderline" />
+        <div class="workProjects">
+          <div class="myProjects">
+            <a href="https://gritchin-artur.github.io/MyPortfolio/">
+              <img
+                src="./img/My_portfolio_project.png"
+                alt="My_portfolio_project"
+              />
+            </a>
+            <a href="https://github.com/gritchin-artur/MyPortfolio">
+              <p>My portfolio</p>
+            </a>
+          </div>
+          <div class="myProjects">
+            <a href="https://gritchin-artur.github.io/ReadJourney/">
+              <img
+                src="./img/Read_journey_project.png"
+                alt="Read_journey_project"
+              />
+            </a>
+            <a href="https://github.com/gritchin-artur/ReadJourney"
+              ><p>Read Journey</p></a
+            >
+          </div>
+          <div class="myProjects">
+            <a href="https://gritchin-artur.github.io/VocabBuilder/">
+              <img
+                src="./img/Vocab_Builder_project.png"
+                alt="Vocab_Builder_project"
+              />
+            </a>
+            <a href="https://github.com/gritchin-artur/VocabBuilder"
+              ><p>Vocab Builder</p></a
+            >
+          </div>
+          <div class="myProjects">
+            <a href="https://gritchin-artur.github.io/LearnLingo/">
+              <img
+                src="./img/Learn_lingo_project.png"
+                alt="Learn_lingo_project"
+              />
+            </a>
+            <a href="https://github.com/gritchin-artur/LearnLingo"
+              ><p>Learn Lingo</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---- Contact me ---->
+    <section class="sectionContact" id="contact">
+      <h2 class="contactTitle">Contact</h2>
+      <hr class="contactUnderline" />
+      <div class="contactContainer">
+        <div class="myPhotoContainer">
+          <img class="myPhoto" src="./img/Artur_Backgraund_img.jpg" alt="me" />
+        </div>
+        <div class="contactContainerForm">
+          <p class="contactMeText">Contact me</p>
+          <form class="form">
+            <div class="labelsContact">
+              <label for="name" class="contactLabel">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                class="input-name"
+                name="name"
+                required=""
+                autocomplete="none"
+              />
+              <label for="email" class="contactLabel">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                class="input-email"
+                name="email"
+                required=""
+                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+              />
+            </div>
+            <label for="message"></label>
+            <textarea
+              class="message"
+              name="message"
+              id="message"
+              rows="10"
+              minlength="5"
+              placeholder="Type your massage..."
+            ></textarea>
+            <button class="form-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-      <!-- Portfolio -->
-
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li><img src="./images/photo.jpg" alt="computer" width="360" /></li>
-          <li><img src="./images/photo1.jpg" alt="phone" width="360" /></li>
-          <li>
-            <img src="./images/photo2.jpg" alt="phone & computer" width="360" />
-          </li>
-        </ul>
-      </section>
-
-      <!-- Team -->
-
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/img1.jpg" alt="Man" width="264" />
-            <h3>Mark Guerrero</h3>
-
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/img2.jpg" alt="Man" width="264" />
-            <h3>Tom Ford</h3>
-
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="Woman" width="264" />
-            <h3>Camila Garcia</h3>
-
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img4.jpg" alt="Man" width="264" />
-            <h3>Daniel Wilson</h3>
-
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <!-- Footer -->
-
+    <!---- Footer ---->
     <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="footer">
+        <p class="websiteOwner">
+          &copy; Designed and Developed by Hrytchyn Artur
+        </p>
+      </div>
     </footer>
   </body>
 </html>
