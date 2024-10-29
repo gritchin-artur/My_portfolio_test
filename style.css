@@ -190,7 +190,8 @@ nav ul {
   align-items: center;
   width: 100vw;
   min-height: 100vh;
-  background: url(./img/Artur_Backgraund_img.jpg) center/cover;
+  background: url(./img/Artur_Backgraund_img.jpg) center 25% / cover no-repeat;
+
   filter: brightness(60%);
   -webkit-mask-image: radial-gradient(
     circle,
