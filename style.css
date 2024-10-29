@@ -526,6 +526,7 @@ nav ul {
 .myProjects {
   padding: 2rem;
   height: 20rem;
+  text-align: center;
 }
 
 .myProjects img {
